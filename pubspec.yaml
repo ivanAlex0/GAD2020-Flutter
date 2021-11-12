@@ -1,0 +1,43 @@
+name: GAD2020
+description: A new Flutter project.
+
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_redux: ^0.7.0
+  cupertino_icons: ^1.0.0
+  http: ^0.12.2
+  url_launcher: ^5.7.10
+  built_value: ^7.1.0
+  built_collection: ^4.3.2
+  freezed_annotation: ^0.12.0
+
+dev_dependencies:
+  pedantic: ^1.9.2
+  audioplayers: 0.17.0
+  build_runner: '>=1.0.0 <2.0.0'
+  built_value_generator: ^7.1.0
+  analyzer: any
+  freezed: any
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Buna ziua.mp3
+    - assets/Ce mai faceti.mp3
+    - assets/Ciao.mp3
+    - assets/Cosa stai facendo.mp3
+    - assets/Dove si trova la stazione ferroviaria.mp3
+    - assets/Unde este gara.mp3
+    - assets/Vrei sa bei bere.mp3
+    - assets/Vuoi bere birra.mp3
